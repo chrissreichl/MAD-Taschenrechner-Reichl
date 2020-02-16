@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/tvExpression"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/whiteCharacters"
+        android:gravity="end"
+        android:ellipsize="start"
+        android:textSize="40sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/whiteCharacters"
+        android:gravity="end"
+        android:textSize="50sp"
+        android:ellipsize="end"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buClear"
+                style="@style/ActionButtonStyleGrey"
+                android:text="@string/clear"/>
+            <Button
+                android:id="@+id/buPlusMinus"
+                style="@style/ActionButtonStyleGrey"
+                android:text="@string/plusMinus"/>
+            <Button
+                android:id="@+id/buPercent"
+                style="@style/ActionButtonStyleGrey"
+                android:text="@string/percent"/>
+            <Button
+                android:id="@+id/buDivide"
+                style="@style/ActionButtonStyleOrange"
+                android:text="@string/divide"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buSeven"
+                style="@style/NumberButtonStyle"
+                android:text="@string/seven"/>
+            <Button
+                android:id="@+id/buEight"
+                style="@style/NumberButtonStyle"
+                android:text="@string/eight"/>
+            <Button
+                android:id="@+id/buNine"
+                style="@style/NumberButtonStyle"
+                android:text="@string/nine"/>
+            <Button
+                android:id="@+id/buMulti"
+                style="@style/ActionButtonStyleOrange"
+                android:text="@string/multi"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buFour"
+                style="@style/NumberButtonStyle"
+                android:text="@string/four"/>
+            <Button
+                android:id="@+id/buFive"
+                style="@style/NumberButtonStyle"
+                android:text="@string/five"/>
+            <Button
+                android:id="@+id/buSix"
+                style="@style/NumberButtonStyle"
+                android:text="@string/six"/>
+            <Button
+                android:id="@+id/buMinus"
+                style="@style/ActionButtonStyleOrange"
+                android:text="@string/minus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buOne"
+                style="@style/NumberButtonStyle"
+                android:text="@string/one"/>
+            <Button
+                android:id="@+id/buTwo"
+                style="@style/NumberButtonStyle"
+                android:text="@string/two"/>
+            <Button
+                android:id="@+id/buThree"
+                style="@style/NumberButtonStyle"
+                android:text="@string/three"/>
+            <Button
+                android:id="@+id/buPlus"
+                style="@style/ActionButtonStyleOrange"
+                android:text="@string/plus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buZero"
+                android:layout_weight="2.3"
+                style="@style/ZeroButtonStyle"
+                android:text="@string/zero"/>
+            <Button
+                android:id="@+id/buComma"
+                style="@style/NumberButtonStyle"
+                android:text="@string/comma"/>
+            <Button
+                android:id="@+id/buEquals"
+                style="@style/ActionButtonStyleOrange"
+                android:text="@string/equals"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
